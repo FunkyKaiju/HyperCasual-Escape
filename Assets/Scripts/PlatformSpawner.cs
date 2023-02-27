@@ -31,7 +31,7 @@ public class PlatformSpawner : MonoBehaviour
         Vector3 temp = transform.position;
         temp.x = Random.Range(minX, maxX);
 
-        int randomPrefab = Random.Range(0, 4);
+        int randomPrefab = Random.Range(0, 5);
        
         Debug.Log("Spawn");
         Instantiate(platformPreFabPool[randomPrefab], temp, Quaternion.identity);

@@ -177,10 +177,10 @@ MonoBehaviour:
   spawnPoint: {fileID: 109334222}
   platformSpawnTimer: 5
   numberOfPrefabs: 6
-  minX: -2
-  maxX: 2
+  minX: -1.5
+  maxX: 1.5
   startTime: 1
-  spawnRate: 1.5
+  spawnRate: 2.5
 --- !u!1 &212915578
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,7 +201,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &212915579
 SpriteRenderer:
   m_ObjectHideFlags: 0
